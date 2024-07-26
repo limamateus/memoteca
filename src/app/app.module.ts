@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { CriarPensamentoComponent } from './components/pensamentos/criar-pensamento/criar-pensamento.component';
+import { FormsModule } from '@angular/forms';
+import { ListagemDePensamentosComponent } from './components/pensamentos/listagem-de-pensamentos/listagem-de-pensamentos.component';
 
 
 @NgModule({
@@ -12,11 +15,13 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-   
+    CriarPensamentoComponent,
+    ListagemDePensamentosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
