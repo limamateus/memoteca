@@ -8,6 +8,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { CriarPensamentoComponent } from './components/pensamentos/criar-pensamento/criar-pensamento.component';
 import { FormsModule } from '@angular/forms';
 import { ListagemDePensamentosComponent } from './components/pensamentos/listagem-de-pensamentos/listagem-de-pensamentos.component';
+import { PensamentoComponent } from './components/pensamentos/pensamento/pensamento.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ListagemDePensamentosComponent } from './components/pensamentos/listage
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListagemDePensamentosComponent
+    ListagemDePensamentosComponent,
+    PensamentoComponent
   ],
   imports: [
     BrowserModule,
